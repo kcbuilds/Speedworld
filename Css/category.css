@@ -1,0 +1,61 @@
+.bikes {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: -30px;
+}
+
+.bikes h2 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 18px;
+    font-size: 3.4rem;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+    letter-spacing: 5px;
+    font-family: 'Koulen', cursive;
+}
+
+.bikes [class*="col-"] {
+    padding: 10px;
+}
+
+.bikes-box {
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bikes-box:hover {
+    transform: scale(1.1);
+    cursor:pointer;
+}
+
+.bikes-box .text {
+    padding: 10px;
+}
+
+.bikes-box .text h3 {
+    font-size: 25px;
+}
+
+.bikes-box .text p {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.bikes-box img {
+    width: 210px;
+}
+
+
+
+.brand h2 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 18px;
+    font-size: 3.4rem;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+    letter-spacing: 5px;
+    font-family: 'Koulen', cursive;
+}

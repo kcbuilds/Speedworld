@@ -1,0 +1,18 @@
+.carousel-inner {
+    text-align: center;
+    height: 65vh;
+}
+
+.slide {
+    margin-bottom: 122px;
+    margin-top: 45px;
+    height: 55vh;
+}
+
+.slide:hover{
+    cursor: pointer;
+}
+
+#carouselExampleSlidesOnly{
+    margin-bottom: -140px;
+}

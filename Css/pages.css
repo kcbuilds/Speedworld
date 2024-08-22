@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+
+.main-menu-bar .main-menu{
+    z-index: -5000;
+}
+
+.main-menu-bar .more-menu {
+    display: inline;
+}
+
+.main-menu-bar input {
+    width: 80%;
+    padding: 3px 3px;
+    border-radius: 8px 0 0 8px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.main-menu-bar button {
+    background: #4AA96C;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    height: 33px;
+    margin-left: -7px;
+    margin-top: 18px;
+    margin-top: 8px;
+
+}
+
+.footer {
+    margin-top: 60px;
+}
+
+
+.footer input {
+    width: 80%;
+    padding: 3px 3px;
+    border-radius: 8px 0 0 8px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.footer button {
+    background: #4AA96C;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    height: 33px;
+    margin-left: -7px;
+    margin-top: 18px;
+}
+
+
+.slide {
+    width: 100%;
+    height: 70%;
+}
+
+.slided {
+    height: 20px;
+    margin-bottom: -500px;
+}
+
+.product {
+    display: flex;
+    box-shadow: 1px 1px 1px 1px #979797;
+
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 90%;
+}
+
+
+.name h1 {
+    font-size: 2em;
+    font-family: 'Bowlby One SC', cursive;
+    margin-left: 20px;
+}
+
+
+#prodetail {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+
+#prodetail .big-pro {
+    max-width: 40%;
+    margin: 90px 70px 0 0;
+    padding: 6px;
+}
+
+#Mainimg {
+    background-color: #edecec;
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    background-color: #edecec;
+    cursor: pointer;
+    padding: 3px;
+    margin: 6px 10px 0 0;
+}
+
+#prodetail .big-pro-text {
+    width: 50%;
+    padding-top: 30px;
+    margin-top: 110px;
+}
+
+#prodetail .big-pro-text h4 {
+    padding: 30px 0 10px 0;
+}
+
+#prodetail .big-pro-text h2 {
+    font-size: 30px;
+}
+
+#prodetail .big-pro-text span {
+    line-height: 20px;
+}
+
+
+@media (max-width: 477px) {
+    #prodetail {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetail .big-pro {
+        width: 100%;
+        margin: 120px 70px 0 0;
+        /* padding: 6px;  */
+    }
+
+    #prodetail .big-pro-text {
+        width: 100%;
+        padding-top: 30px;
+    }
+}
+
+
+.row iframe {
+    margin: 0 0 0 80px;
+}
+
+
+.spec-title h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.row2 {
+    margin-top: 30px;
+    display: block;
+    padding: 20px 20px;
+}
+
+.spec-more-1 {
+    display: none;
+
+}
+
+.spec-more-2 {
+    display: none;
+}
+
+.row2 td {
+    width: 25%;
+}
+
+.row2 th {
+    width: 25%;
+}
+
+.show-spec-1 {
+    display: inline-table;
+    margin-top: -24px;
+}
+
+.show-spec-2 {
+    display: inline-table;
+    margin-top: -24px;
+}
+
+.spec-more-3 {
+    display: none;
+    margin-top: -24px;
+
+}
+
+.show-spec-3 {
+    display: inline-table;
+}
+
+.spec-btn-more {
+    font-size: 0.9em;
+    padding: 5px 5px;
+    width: 100%;
+    height: 55%;
+    font-weight: 500;
+    background-color: #4AA96C;
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    margin: 10px 0px 15px 0px;
+
+}
+
+
+.spec-btn-more:hover {
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.spec-btn-more[class*="column-"] {
+    padding: 10px;
+}
+
+
+.spec-btn {
+    text-align: left;
+    margin-left: 35px;
+}
+
+.more-about {
+    display: none;
+}
+
+.showtext {
+    display: inline;
+}
+
+.btnnn {
+    color: #4AA96C;
+    cursor: pointer;
+}
+
+.dis-text {
+    display: flex;
+}
+
+.dis-text h2 {
+    padding-left: 40px;
+}
+
+
+.dis-text h5 {
+    padding-left: 50px;
+}
+
+#preloader {
+    background: #000 url(../Images/PreLoader/01.gif)no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 5000;
+    background-size: 13%;
+}
+
+#carouselExampleSlidesOnly {
+    cursor: pointer;
+    height: 180px;
+    position: relative;
+    margin-top: 51px;
+}
+
+.brand-h{
+    padding: 90px 90px;
+    margin-top: 210px;
+    margin-bottom: -80px;
+}
